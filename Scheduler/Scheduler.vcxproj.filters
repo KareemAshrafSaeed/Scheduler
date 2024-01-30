@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Datastructures">
+      <UniqueIdentifier>{713d9ea2-c4cd-44a7-bf10-dc752b1941fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processors">
+      <UniqueIdentifier>{a6b4672a-f46d-40d0-8a76-717e8a706152}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Datastructures\LinkedPriorityQueue.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\NodePriority.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\QueueADT.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\LinkedCircularQueue.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\LinkedQueue.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\Node.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\pair.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\Processor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\RoundRobin.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Datastructures\LinkedList.h">
+      <Filter>Header Files\Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\ShortestJobFirst.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\FirstComeFirstServe.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\RoundRobin.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\ShortestJobFirst.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\FirstComeFirstServe.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
